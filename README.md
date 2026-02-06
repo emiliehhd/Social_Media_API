@@ -40,8 +40,11 @@ pip install -r requirements.txt
 4. Configurer les variables d'environnement dans `.env`
 
 5. Démarrer MongoDB
+```bash
+docker-compose up -d
+```
 
-6. Lancer l'API : `uvicorn app.main:app --reload`
+7. Lancer l'API : `uvicorn app.main:app --reload`
 
 
 ## Sécurité
@@ -69,4 +72,5 @@ Pour la Production, il est envisageable de mettre en place :
  - un HTTPS avec certificats SSL
  - un rate limiting pour prévenir les attaques 
  - des logs
+
 
