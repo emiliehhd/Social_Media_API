@@ -19,7 +19,7 @@ API REST pour un réseau social développé avec FastAPI et MangoDB.
 
 1. Cloner le repository
 ```bash
-git clone https://github.com/emiliehhd/GenerativeIA_project.git
+git clone https://github.com/emiliehhd/Social_Media_API.git
 ```
 
 2. Créer un environnement virtuel et l'activer
@@ -69,3 +69,4 @@ Pour la Production, il est envisageable de mettre en place :
  - un HTTPS avec certificats SSL
  - un rate limiting pour prévenir les attaques 
  - des logs
+
